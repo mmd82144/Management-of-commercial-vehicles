@@ -1,0 +1,172 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{6DAA52F8-71B8-4A28-802D-32D1B36BCC34}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Management_of_commercial_vehicles</RootNamespace>
+    <AssemblyName>Management of commercial vehicles</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="bar manager.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="bar manager.Designer.cs">
+      <DependentUpon>bar manager.cs</DependentUpon>
+    </Compile>
+    <Compile Include="bar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="bar.Designer.cs">
+      <DependentUpon>bar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="bardasht.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="bardasht.Designer.cs">
+      <DependentUpon>bardasht.cs</DependentUpon>
+    </Compile>
+    <Compile Include="NewFolder1\IBarRepository.cs" />
+    <Compile Include="NewFolder1\ILavazem.cs" />
+    <Compile Include="NewFolder1\IMaliRepository.cs" />
+    <Compile Include="serves anjam shodehcs.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="serves anjam shodehcs.Designer.cs">
+      <DependentUpon>serves anjam shodehcs.cs</DependentUpon>
+    </Compile>
+    <Compile Include="servises\BarRepository.cs" />
+    <Compile Include="servises\Lavazem.cs" />
+    <Compile Include="servises\MaliRepository.cs" />
+    <Compile Include="sorat hesab.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="sorat hesab.Designer.cs">
+      <DependentUpon>sorat hesab.cs</DependentUpon>
+    </Compile>
+    <Compile Include="variz.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="variz.Designer.cs">
+      <DependentUpon>variz.cs</DependentUpon>
+    </Compile>
+    <Compile Include="home.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="home.Designer.cs">
+      <DependentUpon>home.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Mali.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Mali.Designer.cs">
+      <DependentUpon>Mali.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="servis.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="servis.Designer.cs">
+      <DependentUpon>servis.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="bar manager.resx">
+      <DependentUpon>bar manager.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="bar.resx">
+      <DependentUpon>bar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="bardasht.resx">
+      <DependentUpon>bardasht.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="serves anjam shodehcs.resx">
+      <DependentUpon>serves anjam shodehcs.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="sorat hesab.resx">
+      <DependentUpon>sorat hesab.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="variz.resx">
+      <DependentUpon>variz.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="home.resx">
+      <DependentUpon>home.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Mali.resx">
+      <DependentUpon>Mali.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="servis.resx">
+      <DependentUpon>servis.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\scania.jpg" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

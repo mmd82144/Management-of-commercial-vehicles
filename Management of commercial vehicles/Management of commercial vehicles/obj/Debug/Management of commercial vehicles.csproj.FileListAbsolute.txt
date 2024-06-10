@@ -1,0 +1,17 @@
+c:\users\loq\documents\visual studio 2015\Projects\Management of commercial vehicles\Management of commercial vehicles\bin\Debug\Management of commercial vehicles.exe.config
+c:\users\loq\documents\visual studio 2015\Projects\Management of commercial vehicles\Management of commercial vehicles\bin\Debug\Management of commercial vehicles.exe
+c:\users\loq\documents\visual studio 2015\Projects\Management of commercial vehicles\Management of commercial vehicles\bin\Debug\Management of commercial vehicles.pdb
+c:\users\loq\documents\visual studio 2015\Projects\Management of commercial vehicles\Management of commercial vehicles\obj\Debug\Management of commercial vehicles.csprojResolveAssemblyReference.cache
+c:\users\loq\documents\visual studio 2015\Projects\Management of commercial vehicles\Management of commercial vehicles\obj\Debug\Management_of_commercial_vehicles.Properties.Resources.resources
+c:\users\loq\documents\visual studio 2015\Projects\Management of commercial vehicles\Management of commercial vehicles\obj\Debug\Management of commercial vehicles.csproj.GenerateResource.Cache
+c:\users\loq\documents\visual studio 2015\Projects\Management of commercial vehicles\Management of commercial vehicles\obj\Debug\Management of commercial vehicles.exe
+c:\users\loq\documents\visual studio 2015\Projects\Management of commercial vehicles\Management of commercial vehicles\obj\Debug\Management of commercial vehicles.pdb
+c:\users\loq\documents\visual studio 2015\Projects\Management of commercial vehicles\Management of commercial vehicles\obj\Debug\Management_of_commercial_vehicles.bar.resources
+c:\users\loq\documents\visual studio 2015\Projects\Management of commercial vehicles\Management of commercial vehicles\obj\Debug\Management_of_commercial_vehicles.Mali.resources
+c:\users\loq\documents\visual studio 2015\Projects\Management of commercial vehicles\Management of commercial vehicles\obj\Debug\Management_of_commercial_vehicles.servis.resources
+C:\Users\LOQ\documents\visual studio 2015\Projects\Management of commercial vehicles\Management of commercial vehicles\obj\Debug\Management_of_commercial_vehicles.variz.resources
+C:\Users\LOQ\documents\visual studio 2015\Projects\Management of commercial vehicles\Management of commercial vehicles\obj\Debug\Management_of_commercial_vehicles.bar_manager.resources
+C:\Users\LOQ\documents\visual studio 2015\Projects\Management of commercial vehicles\Management of commercial vehicles\obj\Debug\Management_of_commercial_vehicles.bardasht.resources
+C:\Users\LOQ\documents\visual studio 2015\Projects\Management of commercial vehicles\Management of commercial vehicles\obj\Debug\Management_of_commercial_vehicles.sorat_hesab.resources
+C:\Users\LOQ\documents\visual studio 2015\Projects\Management of commercial vehicles\Management of commercial vehicles\obj\Debug\Management_of_commercial_vehicles.home.resources
+C:\Users\LOQ\documents\visual studio 2015\Projects\Management of commercial vehicles\Management of commercial vehicles\obj\Debug\Management_of_commercial_vehicles.serves_anjam_shodehcs.resources
